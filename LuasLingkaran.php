@@ -8,7 +8,7 @@ class LuasLingkaran {
     protected int $jari;
     
     public function __construct($isiJari = 1) {
-        $this->jari = $isiJari; // default jari-jari
+        $this->jari = $isiJari; //10
     }
 
     public function tampil($nama = 'ban') {
@@ -26,10 +26,3 @@ class LuasLingkaran {
         echo "udah ah cape";
     }
 }
-
-// contoh penggunaan
-$lingkaran = new LuasLingkaran();
-$lingkaran->jari = 12;
-$lingkaran->tampil('roda'); // panggil method tampil
-LuasLingkaran::testing(); // panggil static method
-
