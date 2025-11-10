@@ -20,4 +20,4 @@ $lingkaran = new LuasLingkaran();
 $lingkaran->jari = 12;
 $lingkaran->tampil('roda'); //panggil method tampil
 
-LuasLingkaran::testing(); //panggil static method
+LuasLingkaran::testing();
